@@ -9,10 +9,9 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script>
 
-        $(document).ready(function(){
+        jQuery(document).ready(function($) {
 
             $('#a1').click(function(){
-
                 var offset = $('#div1').offset();
                 var winH = $(window).height();
                 $('html, body').animate({scrollTop : (offset.top - winH/12)}, 400);
@@ -193,6 +192,7 @@
         <p>
             <div><input type="radio" id="a1" name="firstmeet" value="1"><label for="a1">날 따라다니는 내시들과 궁녀들이 익숙하지 않다... 일단 조용히 상황을 파악한다.</label></div>
             <div><input type="radio" id="a2" name="firstmeet" value="2"><label for="a2">이상하긴 하지만 궁 이곳저곳 돌아다니면서 신하들에게 궁금한 걸 묻는다!</label></div>
+        </p>
         <br>
         <br>
 
