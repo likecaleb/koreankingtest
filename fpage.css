@@ -47,3 +47,7 @@ h1{
     100% {opacity:1;}
 }
 
+.ad-banner{
+    width: 320px;
+    margin: 0 auto;
+}
