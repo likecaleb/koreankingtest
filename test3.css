@@ -85,7 +85,7 @@ a{
         font-weight: bold;
         text-shadow: 2px 2px 2px gray;
         margin-top: 400px;
-        margin-bottom: 300px;
+        margin-bottom: 150px;
     }
     
     input[type=radio]{display: none; margin:10px;}
